@@ -51,7 +51,7 @@ class Digw extends Component {
         component.setDirections();
         clearInterval(digw_int);
       }
-      if(count == 10){
+      if(count === 10){
         clearInterval(digw_int);
       }
     }, 2000);
